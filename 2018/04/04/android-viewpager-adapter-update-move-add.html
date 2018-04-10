@@ -111,7 +111,7 @@
 <meta property="og:description" content="Viewpager+FragmentStatePagerAdapter动态添加，删除，移动位置，(局部)更新页面(Fragment)不闪屏，不错位解决方案">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/4/1/162819f816c01d6f?w=364&h=580&f=gif&s=113096">
-<meta property="og:updated_time" content="2018-04-10T11:20:25.980Z">
+<meta property="og:updated_time" content="2018-04-10T14:16:25.440Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Viewpager+FragmentStatePagerAdapter动态添加，删除，移动位置，(局部)更新页面(Fragment)不闪屏，不错位解决方案">
 <meta name="twitter:description" content="Viewpager+FragmentStatePagerAdapter动态添加，删除，移动位置，(局部)更新页面(Fragment)不闪屏，不错位解决方案">
@@ -434,6 +434,7 @@
 <p>首先当然是引出要解决的需求，在做一个IM模块时UI是这样的：上面是水平的联系人栏，下面是聊天界面，可以水平滑动切换联系人聊天，也就是说是RecyclerView与Viewpager的联动，为了切换时体验好需要左右两边预加载多个联系人的聊天内容，用户收到新消息时当前聊天页变成第一页(Viewpager页面要无闪烁或滑动)顶栏头像移动到第一个，删除聊天时移除当前聊天页其他缓存的页不变动，不闪烁，也就是说页面位置发生变化时已有缓存页的要用缓存而不是销毁重建，大体UI请看图：</p>
 </blockquote>
 <p><img src="https://user-gold-cdn.xitu.io/2018/4/1/162819f816c01d6f?w=364&amp;h=580&amp;f=gif&amp;s=113096" alt=""></p>
+<a id="more"></a>
 <h3 id="1-要实现的几个功能点："><a href="#1-要实现的几个功能点：" class="headerlink" title="1. 要实现的几个功能点："></a>1. 要实现的几个功能点：</h3><ul>
 <li>ViewPager中Fragment多少个不固定，需要动态添加，删除页面。</li>
 <li>更新页面(Fragment)，使用已有的缓存页面。</li>
