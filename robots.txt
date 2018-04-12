@@ -11,5 +11,5 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: http://homg.vip/sitemap.xml
-Sitemap: http://homg.vip/baidusitemap.xml
+Sitemap: http://zhuchen.vip/sitemap.xml
+Sitemap: http://zhuchen.vip/baidusitemap.xml
